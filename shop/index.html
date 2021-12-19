@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+  <title>Lukas.</title>
+  <meta charset="UTF-8" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/libs.min.css" />
+  <link rel="stylesheet" href="css/style.min.css" />
+</head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+  <div class="header__wrapper">
+    <div class="header__container container">
+      <div class="header__body">
+        <div class="header__main">
+          <a href="#" class="header__logo">Popap</a>
+          <div class="header__menu menu">
+            <nav class="menu__body">
+              <ul data-spollers="768,max" class="menu__list">
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Продукты</a>
+                  <!-- подменю для тачскрина -->
+                  <button
+                    data-spoller
+                    type="submit"
+                    class="menu__arrow _icon-arrow-down"
+                  ></button>
+                  <ul class="menu__sub-list">
+                    <li class="menu__sub-item">
+                      <a href="#" class="menu__sub-link">Продукт 1</a>
+                    </li>
+                    <li class="menu__sub-item">
+                      <a href="#" class="menu__sub-link">Продукт 2</a>
+                    </li>
+                    <li class="menu__sub-item">
+                      <a href="#" class="menu__sub-link">Продукт 3</a>
+                    </li>
+                    <li class="menu__sub-item">
+                      <a href="#" class="menu__sub-link">Продукт 4</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Акции</a>
+                  <button
+                    data-spoller
+                    type="submit"
+                    class="menu__arrow _icon-arrow-down"
+                  ></button>
+                  <ul class="menu__sub-list">
+                    <li class="menu__sub-item">
+                      <a href="#" class="menu__sub-link">Акция 1</a>
+                    </li>
+                    <li class="menu__sub-item">
+                      <a href="#" class="menu__sub-link">Акция 2</a>
+                    </li>
+                    <li class="menu__sub-item">
+                      <a href="#" class="menu__sub-link">Акция 3</a>
+                    </li>
+                    <li class="menu__sub-item">
+                      <a href="#" class="menu__sub-link">Акция 4</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Доставка</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="header__search">
+          <div class="search-form">
+            <button
+              type="button"
+              class="search-form__icon _icon-search"
+            ></button>
+            <form action="#" class="form search-form__item">
+              <button class="search-form__btn _icon-search"></button>
+              <input
+                autocomplete="off"
+                type="text"
+                name="form[]"
+                data-value="Search for minimalist chair"
+                class="search-form__input"
+              />
+            </form>
+          </div>
+        </div>
+        <div class="header__actions actions-header">
+          <a
+            href=""
+            class="
+              actions-header__item actions-header__item_favorites
+              _icon-heart
+            "
+          ></a>
+          <div class="actions-header__item cart-header">
+            <a href="#" class="cart-header__icon _icon-cart"></a>
+            <div class="cart-header__body">
+              <ul class="cart-header__list cart-list"></ul>
+            </div>
+          </div>
+          <a
+            href="#"
+            class="actions-header__item actions-header__item_user _ibg"
+            ><picture><source srcset="images/avatar.webp" type="image/webp"><img src="images/avatar.jpg" alt="Avatar"
+          /></picture></a>
+        </div>
+        <button class="icon-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="header__content">
+    <div class="header__menu menu">
+      <div class="menu__icon icon-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav class="menu__body">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="" class="menu__link ">Работы</a>
+          </li>
+          <li class="menu__item">
+            <a href="" class="menu__link ">Блог</a>
+          </li>
+          <li class="menu__item">
+            <a href="" class="menu__link ">Резюме</a>
+          </li>
+          <li class="menu__item">
+            <a href="" class="menu__link ">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div> -->
+</header>
+
+      <main class="page">
+        <section class="page__main-slider main-slider">
+          <div class="main-slider__container container">
+            <div class="main-slider__body">
+              <div class="main-slider__content content-main">
+                <h1 class="content-main__title">Привет, продукция Лукас</h1>
+                <div class="content-main__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                  necessitatibus minus non quidem iste rem sequi dignissimos id
+                  sed eveniet.
+                </div>
+                <a
+                  href="#"
+                  data-da=".main-slider__body,991.98"
+                  class="content-main__button btn"
+                  >Купить</a
+                >
+              </div>
+              <div class="main-slider__slider slider-main">
+                <div class="slider-main__controls controls-slider-main">
+                  <div class="controls-slider-main__dotts"></div>
+                  <div class="controls-slider-main__arrows slider-arrows">
+                    <button
+                      class="slider-arrow slider-arrow_prev _icon-arrow-down"
+                    ></button>
+                    <button
+                      class="slider-arrow slider-arrow_next _icon-arrow-down"
+                    ></button>
+                  </div>
+                </div>
+                <div class="slider-main__body _swiper">
+                  <div class="slider-main__slide">
+                    <div class="slider-main__image _ibg">
+                      <picture><source srcset="images/main-slider/01.webp" type="image/webp"><img src="images/main-slider/01.jpg" alt="Image" /></picture>
+                    </div>
+                    <a
+                      href="#"
+                      data-swiper-parallax-opaciti="0"
+                      data-swiper-parallax-x="-100%"
+                      class="slider-main__content"
+                    >
+                      <div class="slider-main__title">Поля с цветком</div>
+                      <div class="slider-main__text">Гуляет</div>
+                      <div class="slider-main__price _icon-arrow-right">
+                        104
+                      </div>
+                    </a>
+                  </div>
+                  <div class="slider-main__slide">
+                    <div class="slider-main__image _ibg">
+                      <picture><source srcset="images/main-slider/02.webp" type="image/webp"><img src="images/main-slider/02.jpg" alt="Image" /></picture>
+                    </div>
+                    <a
+                      href="#"
+                      data-swiper-parallax-opaciti="0"
+                      data-swiper-parallax-x="-100%"
+                      class="slider-main__content"
+                    >
+                      <div class="slider-main__title">Поля у Василевны</div>
+                      <div class="slider-main__text">В гостях</div>
+                      <div class="slider-main__price _icon-arrow-right">
+                        104
+                      </div>
+                    </a>
+                  </div>
+                  <div class="slider-main__slide">
+                    <div class="slider-main__image _ibg">
+                      <picture><source srcset="images/main-slider/03.webp" type="image/webp"><img src="images/main-slider/03.jpg" alt="Image" /></picture>
+                    </div>
+                    <a
+                      href="#"
+                      data-swiper-parallax-opaciti="0"
+                      data-swiper-parallax-x="-100%"
+                      class="slider-main__content"
+                    >
+                      <div class="slider-main__title">Поля на даче</div>
+                      <div class="slider-main__text">Отдыхает</div>
+                      <div class="slider-main__price _icon-arrow-right">
+                        104
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="advantages advantages">
+          <div class="advantages__container container">
+            <div class="advantages__item">
+              <div class="advantages__icon">
+                <picture><source srcset="images/advantages/01.webp" type="image/webp"><img src="images/advantages/01.png" alt="" /></picture>
+              </div>
+              <h3 class="advantages__title">Качество</h3>
+              <div class="advantages__text">
+                Европейские сертефикаты качества
+              </div>
+            </div>
+            <div class="advantages__item">
+              <div class="advantages__icon">
+                <picture><source srcset="images/advantages/02.webp" type="image/webp"><img src="images/advantages/02.png" alt="" /></picture>
+              </div>
+              <h3 class="advantages__title">Безопасность</h3>
+              <div class="advantages__text">
+                Европейские сертефикаты качества
+              </div>
+            </div>
+            <div class="advantages__item">
+              <div class="advantages__icon">
+                <picture><source srcset="images/advantages/03.webp" type="image/webp"><img src="images/advantages/03.png" alt="" /></picture>
+              </div>
+              <h3 class="advantages__title">Доступность</h3>
+              <div class="advantages__text">
+                Европейские сертефикаты качества
+              </div>
+            </div>
+            <div class="advantages__item">
+              <div class="advantages__icon">
+                <picture><source srcset="images/advantages/04.webp" type="image/webp"><img src="images/advantages/04.png" alt="" /></picture>
+              </div>
+              <h3 class="advantages__title">Цена</h3>
+              <div class="advantages__text">
+                Европейские сертефикаты качества
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page__products products">
+          <div class="products__container container">
+            <h2 class="products__title title">Наш товар</h2>
+            <div class="products__items">
+              <article data-pid="1" class="products__item item-product">
+                <div class="item-product__labels">
+                  <div class="item-product__label item-product__label_sale">
+                    -30%
+                  </div>
+                </div>
+                <a href="#" class="item-product__image _ibg">
+                  <picture><source srcset="images/products/02.webp" type="image/webp"><img src="images/products/02.jpg" alt="" /></picture>
+                </a>
+                <div class="item-product__body">
+                  <div class="item-product__content">
+                    <h3 class="item-product__title">O-damer</h3>
+                    <div class="item-product__text">Мягкий грильяж</div>
+                  </div>
+                  <div class="item-product__prices">
+                    <div class="item-product__price">грн 89.0</div>
+                    <div class="item-product__price item-product__price_old">
+                      96.0
+                    </div>
+                  </div>
+                  <div class="item-product__actions ations-product">
+                    <div class="actions-product__body">
+                      <a href="#" class="actions-product__button btn btn_white"
+                        >Добавить в корзину</a
+                      >
+                      <a href="#" class="actions-product__link _icon-share"
+                        >Поделиться</a
+                      >
+                      <a href="#" class="actions-product__link _icon-heart"
+                        >Лайк</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <article data-pid="2" class="products__item item-product">
+                <div class="item-product__labels">
+                  <div class="item-product__label item-product__label_sale">
+                    -30%
+                  </div>
+                  <div class="item-product__label item-product__label_new">
+                    new
+                  </div>
+                </div>
+                <a href="#" class="item-product__image _ibg">
+                  <picture><source srcset="images/products/01.webp" type="image/webp"><img src="images/products/01.jpg" alt="" /></picture>
+                </a>
+                <div class="item-product__body">
+                  <div class="item-product__content">
+                    <h3 class="item-product__title">Шарзан</h3>
+                    <div class="item-product__text">Мягкий грильяж</div>
+                  </div>
+                  <div class="item-product__prices">
+                    <div class="item-product__price">грн 89.0</div>
+                    <div class="item-product__price item-product__price_old">
+                      96.0
+                    </div>
+                  </div>
+                  <div class="item-product__actions ations-product">
+                    <div class="actions-product__body">
+                      <a href="#" class="actions-product__button btn btn_white"
+                        >Добавить в корзину</a
+                      >
+                      <a href="#" class="actions-product__link _icon-share"
+                        >Поделиться</a
+                      >
+                      <a href="#" class="actions-product__link _icon-heart"
+                        >Лайк</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <article data-pid="3" class="products__item item-product">
+                <div class="item-product__labels">
+                  <div class="item-product__label item-product__label_sale">
+                    -30%
+                  </div>
+                </div>
+                <a href="#" class="item-product__image _ibg">
+                  <picture><source srcset="images/products/03.webp" type="image/webp"><img src="images/products/03.jpg" alt="" /></picture>
+                </a>
+                <div class="item-product__body">
+                  <div class="item-product__content">
+                    <h3 class="item-product__title">Аркадия</h3>
+                    <div class="item-product__text">Мягкий грильяж</div>
+                  </div>
+                  <div class="item-product__prices">
+                    <div class="item-product__price">грн 89.0</div>
+                    <div class="item-product__price item-product__price_old">
+                      96.0
+                    </div>
+                  </div>
+                  <div class="item-product__actions ations-product">
+                    <div class="actions-product__body">
+                      <a href="#" class="actions-product__button btn btn_white"
+                        >Добавить в корзину</a
+                      >
+                      <a href="#" class="actions-product__link _icon-share"
+                        >Поделиться</a
+                      >
+                      <a href="#" class="actions-product__link _icon-heart"
+                        >Лайк</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <article data-pid="4" class="products__item item-product">
+                <div class="item-product__labels">
+                  <div class="item-product__label item-product__label_sale">
+                    -30%
+                  </div>
+                </div>
+                <a href="#" class="item-product__image _ibg">
+                  <picture><source srcset="images/products/04.webp" type="image/webp"><img src="images/products/04.jpg" alt="" /></picture>
+                </a>
+                <div class="item-product__body">
+                  <div class="item-product__content">
+                    <h3 class="item-product__title">Лукася</h3>
+                    <div class="item-product__text">Мягкий грильяж</div>
+                  </div>
+                  <div class="item-product__prices">
+                    <div class="item-product__price">грн 89.0</div>
+                    <div class="item-product__price item-product__price_old">
+                      96.0
+                    </div>
+                  </div>
+                  <div class="item-product__actions ations-product">
+                    <div class="actions-product__body">
+                      <a href="#" class="actions-product__button btn btn_white"
+                        >Добавить в корзину</a
+                      >
+                      <a href="#" class="actions-product__link _icon-share"
+                        >Поделиться</a
+                      >
+                      <a href="#" class="actions-product__link _icon-heart"
+                        >Лайк</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="products__footer">
+              <a href="" class="products__more btn btn_white">Показать все</a>
+            </div>
+          </div>
+        </section>
+        <section class="page__rooms rooms">
+          <div class="rooms__container container">
+            <div class="rooms__body">
+              <h2 class="rooms__title title">Программы лояльности</h2>
+              <div class="rooms__text">
+                У нас всегда найдеться для Вас интерестное предложение
+              </div>
+              <a href="#" class="rooms__button btn">Смотреть дальше</a>
+            </div>
+            <div class="rooms__slider slider-rooms">
+              <div class="slider-rooms__body _swiper">
+                <div class="slider-rooms__slide">
+                  <div class="slider-rooms__image _ibg">
+                    <picture><source srcset="images/rooms/01.webp" type="image/webp"><img src="images/rooms/01.jpg" alt="" /></picture>
+                  </div>
+                  <a
+                    href="#"
+                    data-swiper-parallax-opacity="0"
+                    data-swiper-parallax-y="-100%"
+                    class="slider-rooms__content _icon-arrow-right"
+                  >
+                    <div class="slider-rooms__label label-slider">
+                      <div class="label-slider__number">01</div>
+                      <div class="label-slider__line"></div>
+                      <div class="label-slider__text">Скидки на конфеты</div>
+                    </div>
+                    <div class="slider-rooms__title">Получить скидку</div>
+                  </a>
+                </div>
+                <div class="slider-rooms__slide">
+                  <div class="slider-rooms__image _ibg">
+                    <picture><source srcset="images/rooms/02.webp" type="image/webp"><img src="images/rooms/02.jpg" alt="" /></picture>
+                  </div>
+                  <a
+                    href="#"
+                    data-swiper-parallax-opacity="0"
+                    data-swiper-parallax-y="-100%"
+                    class="slider-rooms__content _icon-arrow-right"
+                  >
+                    <div class="slider-rooms__label label-slider">
+                      <div class="label-slider__number">01</div>
+                      <div class="label-slider__line"></div>
+                      <div class="label-slider__text">Скидки на конфеты</div>
+                    </div>
+                    <div class="slider-rooms__title">Получить скидку</div>
+                  </a>
+                </div>
+                <div class="slider-rooms__slide">
+                  <div class="slider-rooms__image _ibg">
+                    <picture><source srcset="images/rooms/03.webp" type="image/webp"><img src="images/rooms/03.jpg" alt="" /></picture>
+                  </div>
+                  <a
+                    href="#"
+                    data-swiper-parallax-opacity="0"
+                    data-swiper-parallax-y="-100%"
+                    class="slider-rooms__content _icon-arrow-right"
+                  >
+                    <div class="slider-rooms__label label-slider">
+                      <div class="label-slider__number">01</div>
+                      <div class="label-slider__line"></div>
+                      <div class="label-slider__text">Скидки на конфеты</div>
+                    </div>
+                    <div class="slider-rooms__title">Получить скидку</div>
+                  </a>
+                </div>
+              </div>
+              <div class="slider-rooms__arrows slider-arrows">
+                <button
+                  type="button"
+                  class="
+                    slider-arrow slider-arrow_white slider-arrow_prev
+                    _icon-arrow-down
+                  "
+                ></button>
+                <button
+                  type="button"
+                  class="
+                    slider-arrow slider-arrow_white slider-arrow_next
+                    _icon-arrow-down
+                  "
+                ></button>
+              </div>
+              <div class="slider-rooms__dotts"></div>
+            </div>
+          </div>
+        </section>
+        <section class="page__tips tips">
+          <div class="tips__container container">
+            <h2 class="tips__title title">tips & Tricks</h2>
+            <div class="tips__slider slider-tips">
+              <div class="slider-tips__body _swiper">
+                <div class="slider-tips__slide">
+                  <a href="#" class="slider-tips__image _ibg">
+                    <picture><source srcset="images/tips/01.webp" type="image/webp"><img src="images/tips/01.jpg" alt="tips" /></picture>
+                  </a>
+                  <div class="slider-tips__content">
+                    <a href="#" class="slider-tips__title"
+                      >Первое изображение</a
+                    >
+                    <div class="slider-tips__text">16 dec 2021</div>
+                  </div>
+                </div>
+                <div class="slider-tips__slide">
+                  <a href="#" class="slider-tips__image _ibg">
+                    <picture><source srcset="images/tips/02.webp" type="image/webp"><img src="images/tips/02.jpg" alt="tips" /></picture>
+                  </a>
+                  <div class="slider-tips__content">
+                    <a href="#" class="slider-tips__title"
+                      >Первое изображение</a
+                    >
+                    <div class="slider-tips__text">16 dec 2021</div>
+                  </div>
+                </div>
+                <div class="slider-tips__slide">
+                  <a href="#" class="slider-tips__image _ibg">
+                    <picture><source srcset="images/tips/03.webp" type="image/webp"><img src="images/tips/03.jpg" alt="tips" /></picture>
+                  </a>
+                  <div class="slider-tips__content">
+                    <a href="#" class="slider-tips__title"
+                      >Первое изображение</a
+                    >
+                    <div class="slider-tips__text">16 dec 2021</div>
+                  </div>
+                </div>
+              </div>
+              <div class="slider-tips__dotts"></div>
+              <div class="slider-tips__arrows slider-arrows">
+                <button
+                  type="button"
+                  class="
+                    slider-arrow slider-arrow_white slider-arrow_prev
+                    _icon-arrow-down
+                  "
+                ></button>
+                <button
+                  type="button"
+                  class="
+                    slider-arrow slider-arrow_white slider-arrow_next
+                    _icon-arrow-down
+                  "
+                ></button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="pagre__furniture furniture">
+          <div class="furniture__container">
+            <div class="furniture__label">Наша галерея</div>
+            <h2 class="furniture__title title">Пасха 2019</h2>
+            <div data-speed="0.01" class="furniture__body">
+              <div class="furniture__items _gallery">
+                <div class="furniture__column">
+                  <div
+                    class="furniture__row row-furniture row-furniture_left-top"
+                  >
+                    <a
+                      href="images/furniture/01.JPG"
+                      class="row-furniture__item"
+                      ><picture><source srcset="images/furniture/01.webp" type="image/webp"><img src="images/furniture/01.JPG" alt="Image"
+                    /></picture></a>
+                    <a
+                      href="images/furniture/02.jpg"
+                      class="row-furniture__item"
+                      ><picture><source srcset="images/furniture/02.webp" type="image/webp"><img src="images/furniture/02.jpg" alt="Image"
+                    /></picture></a>
+                    <a
+                      href="images/furniture/03.jpg"
+                      class="row-furniture__item"
+                      ><picture><source srcset="images/furniture/03.webp" type="image/webp"><img src="images/furniture/03.jpg" alt="Image"
+                    /></picture></a>
+                  </div>
+                  <div
+                    class="
+                      furniture__row
+                      row-furniture row-furniture_left-bottom
+                    "
+                  >
+                    <a
+                      href="images/furniture/04.jpg"
+                      class="row-furniture__item"
+                      ><picture><source srcset="images/furniture/01.webp" type="image/webp"><img src="images/furniture/01.jpg" alt="Image"
+                    /></picture></a>
+                    <a
+                      href="images/furniture/05.jpg"
+                      class="row-furniture__item"
+                      ><picture><source srcset="images/furniture/05.webp" type="image/webp"><img src="images/furniture/05.jpg" alt="Image"
+                    /></picture></a>
+                    <a
+                      href="images/furniture/06.jpg"
+                      class="row-furniture__item"
+                      ><picture><source srcset="images/furniture/06.webp" type="image/webp"><img src="images/furniture/06.jpg" alt="Image"
+                    /></picture></a>
+                  </div>
+                </div>
+                <div class="furniture__column">
+                  <div
+                    class="furniture__row row-furniture row-furniture_center"
+                  >
+                    <a
+                      href="images/furniture/07.jpg"
+                      class="row-furniture__item"
+                      ><picture><source srcset="images/furniture/07.webp" type="image/webp"><img src="images/furniture/07.jpg" alt="Image"
+                    /></picture></a>
+                  </div>
+                </div>
+                <div class="furniture__column">
+                  <div
+                    class="furniture__row row-furniture row-furniture_right-top"
+                  >
+                    <a
+                      href="images/furniture/08.jpg"
+                      class="row-furniture__item"
+                      ><picture><source srcset="images/furniture/08.webp" type="image/webp"><img src="images/furniture/08.jpg" alt="Image"
+                    /></picture></a>
+                    <a
+                      href="images/furniture/09.jpg"
+                      class="row-furniture__item"
+                      ><picture><source srcset="images/furniture/09.webp" type="image/webp"><img src="images/furniture/09.jpg" alt="Image"
+                    /></picture></a>
+                    <a
+                      href="images/furniture/10.jpg"
+                      class="row-furniture__item"
+                      ><picture><source srcset="images/furniture/10.webp" type="image/webp"><img src="images/furniture/10.jpg" alt="Image"
+                    /></picture></a>
+                  </div>
+                  <div
+                    class="
+                      furniture__row
+                      row-furniture row-furniture_right-bottom
+                    "
+                  >
+                    <a
+                      href="images/furniture/11.jpg"
+                      class="row-furniture__item"
+                      ><picture><source srcset="images/furniture/11.webp" type="image/webp"><img src="images/furniture/11.jpg" alt="Image"
+                    /></picture></a>
+                    <a
+                      href="images/furniture/12.jpg"
+                      class="row-furniture__item"
+                      ><picture><source srcset="images/furniture/12.webp" type="image/webp"><img src="images/furniture/12.jpg" alt="Image"
+                    /></picture></a>
+                    <a
+                      href="images/furniture/01.jpg"
+                      class="row-furniture__item"
+                      ><picture><source srcset="images/furniture/01.webp" type="image/webp"><img src="images/furniture/01.jpg" alt="Image"
+                    /></picture></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+  <div class="footer__container container">
+    <div class="footer__body">
+      <div class="footer__main">
+        <a href="#popup" class="footer__logo _footer-title popup-link"
+          >Lukas.</a
+        >
+        <div class="footer__text">
+          Магазин кондитерских изделий, вкусно как дома
+        </div>
+        <div class="footer__contacts contacts-footer">
+          <a href="#" class="contacts-footer__item _icon-location"
+            >Украина, г. Чернигов</a
+          >
+          <a href="tel:+380935433106" class="contacts-footer__item _icon-phone"
+            >0935433106</a
+          >
+          <a
+            href="https://www.alexsite.store"
+            target="_blank"
+            class="contacts-footer__item"
+            >www.alexsite.store</a
+          >
+        </div>
+      </div>
+      <div data-spollers="768,max" class="footer__menu menu-footer">
+        <div class="menu-footer__column">
+          <button
+            type="button"
+            data-spoller
+            class="menu-footer__title _footer-title"
+          >
+            Меню
+          </button>
+          <ul class="menu-footer__list">
+            <li class="menu-footer__link">Продукты</li>
+            <li class="menu-footer__link">Акции</li>
+            <li class="menu-footer__link">Доставка</li>
+            <li class="menu-footer__link">О товаре</li>
+            <li class="menu-footer__link">Новинки</li>
+          </ul>
+        </div>
+        <div class="menu-footer__column">
+          <button
+            type="button"
+            data-spoller
+            class="menu-footer__title _footer-title"
+          >
+            Акаунт
+          </button>
+          <ul class="menu-footer__list">
+            <li class="menu-footer__link">Мой акаунт</li>
+            <li class="menu-footer__link">Связаться</li>
+            <li class="menu-footer__link">Моя карта</li>
+            <li class="menu-footer__link">Мой каталог</li>
+          </ul>
+        </div>
+        <div class="menu-footer__column">
+          <button
+            type="button"
+            data-spoller
+            class="menu-footer__title _footer-title"
+          >
+            Связаться с нами
+          </button>
+          <ul class="menu-footer__list">
+            <li class="menu-footer__link">Facebook</li>
+            <li class="menu-footer__link">Instagram</li>
+            <li class="menu-footer__link">Twitter</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__subscribe subscribe">
+        <div class="subscribe__title _footer-title">Обратная связь</div>
+        <form
+          data-message="subscribe"
+          data-test
+          action="#"
+          class="form subscribe__form"
+        >
+          <input
+            autocomplete="off"
+            name="form[]"
+            data-error="Ошибка"
+            data-value="Введите свой Email"
+            type="text"
+            class="subscribe__input _reg _email"
+          />
+          <button type="submit" class="subscribe__button _icon-send"></button>
+        </form>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+
+    <!-- <div class="popup popup_popup">
+  <div class="popup__content">
+    <div class="popup__body">
+      <div class="popup__close"></div>
+    </div>
+  </div>
+</div> -->
+<div id="popup" class="popup popup_subscribe-message">
+  <div class="popup__body">
+    <div class="popup__content lock-padding">
+      <a class="popup__close close-popup">X</a>
+      <div class="popup__title">Это модальное окно</div>
+      <div class="popup__text">
+        <h1><strong> Форма отправлена</strong></h1>
+
+        <a href="#popup-img" class="popup-link">Ссылка на 2 попап</a><br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum vero
+        laboriosam iusto quam in! Vero magni quaerat nisi? Ratione, fugit
+        laborum. Id repellendus tenetur iure veritatis maiores, cumque eveniet.
+        Ullam adipisci obcaecati animi nisi ea praesentium sit possimus natus?
+        Maxime facere quod culpa nesciunt omnis ipsam rerum dignissimos, non
+        quia fugiat ab repellendus perspiciatis quae nostrum totam et tempora,
+        vero cum deserunt ex rem voluptatem iste animi. Ea, vel modi nam minus
+        ex, eius illo cumque, nisi quis voluptatem fuga reprehenderit. Pariatur,
+        modi earum enim consectetur rem, quidem maiores quas voluptas in,
+        tenetur quam beatae laudantium est error incidunt! Vel facilis eius
+        nesciunt iusto, in esse. Ut beatae natus doloribus explicabo autem eius
+        reprehenderit corporis recusandae soluta modi aspernatur veniam vitae
+        dolorum hic odit nihil odio repellendus voluptatem magni eligendi, optio
+        voluptatum perspiciatis corrupti numquam? Totam magni exercitationem
+        eaque reiciendis quibusdam quisquam perspiciatis excepturi qui. Deleniti
+        totam, cumque iure neque veritatis ad maiores, eligendi, quibusdam
+        laudantium quo omnis hic officia ullam ipsa repellat doloribus eius
+        exercitationem? Nesciunt suscipit voluptates totam quia labore dolorem
+        distinctio inventore consequuntur, molestias ad, ex dolor facilis saepe
+        non alias molestiae mollitia odio officia esse porro omnis? Ratione nemo
+        possimus expedita veniam commodi perspiciatis quod non fuga hic,
+        blanditiis soluta consectetur repudiandae alias assumenda,
+        exercitationem, harum veritatis voluptas laudantium eum suscipit
+        repellendus doloribus architecto maiores praesentium. Voluptas possimus
+        quae adipisci consequatur distinctio minus sed non perspiciatis
+        accusantium fugit doloremque deleniti ipsum, dolorum optio iusto id,
+        mollitia temporibus labore enim ullam qui excepturi? Repudiandae non nam
+        doloribus a animi beatae quos placeat quisquam nobis voluptas voluptate
+        dolor molestiae asperiores illo explicabo deleniti unde, ducimus,
+        quaerat id accusantium! Qui non dolore aliquam beatae quibusdam, quia
+        rerum voluptatem laboriosam error fugiat a voluptates molestiae labore?
+        Quod excepturi non quibusdam deserunt, nostrum dolorum in cupiditate
+        dignissimos fuga est nesciunt quisquam, sit, culpa ducimus. Natus, unde
+        enim harum suscipit nemo eum amet quos sapiente? Placeat nesciunt optio
+        delectus ab impedit, autem ipsum fuga repudiandae sint accusantium
+        accusamus culpa est? Non animi quam necessitatibus modi, libero suscipit
+        natus eius odio enim. Eaque repellendus dolorum quisquam, distinctio
+        magni eligendi cupiditate fuga quidem earum id sit maxime adipisci
+        reiciendis iusto, facilis officia soluta minus, pariatur delectus quo
+        nobis itaque mollitia! Magni officiis maiores nemo, mollitia suscipit
+        velit fuga ut unde omnis odit neque. Eos, vero nesciunt facere soluta
+        cupiditate quo culpa labore itaque consectetur magni ab saepe non,
+        voluptas quam suscipit! Est facere veritatis voluptatem aspernatur,
+        debitis aliquid vitae. Omnis nulla sed voluptates molestiae, labore nam
+        mollitia ut totam debitis. Enim doloremque quae sapiente dolor autem
+        eius aliquam accusamus iste voluptas, inventore saepe. Quisquam quaerat
+        nostrum ab neque illo molestiae nemo, architecto quasi officia magnam
+        omnis harum est. Aliquam quidem magni quasi eveniet nesciunt, nemo iusto
+        dolores, facilis atque blanditiis fugit alias soluta rerum delectus
+        molestias vitae ipsa. Quaerat ipsa officiis ratione sed. Distinctio,
+        veritatis quia alias et incidunt accusantium quisquam voluptatum culpa
+        unde perferendis odit quae? Odit numquam possimus, quidem recusandae
+        minus fugiat ducimus ab voluptatem, corporis natus sed dolores nemo
+        nostrum nisi est harum. Veniam, placeat! Exercitationem et at optio ipsa
+        officiis iusto voluptatibus eius sit aut reprehenderit, minus velit cum
+        deleniti, excepturi voluptas iure. Harum aliquid aut nisi voluptatibus,
+        nemo, labore autem ipsum consequatur eligendi nostrum dolor iure cumque
+        exercitationem voluptates tempore ullam fugit quas ratione. Ut maxime
+        distinctio cupiditate. Harum voluptate consequatur temporibus nihil
+        nostrum beatae, perspiciatis dolor tempora id, quis hic aperiam qui
+        minus vel, animi nobis ab aspernatur pariatur. Pariatur ipsum possimus
+        repellendus non odio est officia? Earum repellat animi accusamus neque,
+        quaerat sit impedit eligendi mollitia dignissimos similique, itaque,
+        nihil minus rerum. Iure hic sint illum deleniti asperiores incidunt ut
+        qui quia, eum expedita tenetur, voluptas consequuntur provident
+        reprehenderit cum repudiandae tempora. Suscipit laudantium eum odit
+        vero, accusamus perferendis nam, dolorum voluptas iure eveniet amet quae
+        quas voluptate id, sequi ad exercitationem perspiciatis. Incidunt quod
+        deleniti ipsum tempora a veniam ad, possimus voluptate atque non
+        quisquam fugiat dolor minus? Sit eligendi doloribus esse. Suscipit vel
+        exercitationem ipsa! Dignissimos quibusdam id, magni soluta quos
+        cupiditate? Voluptatem eos aperiam suscipit, iusto non dolores corrupti
+        quaerat commodi mollitia, consequuntur expedita quam? In pariatur
+        inventore, at fugit hic corporis architecto natus iusto unde maxime sint
+        excepturi beatae sequi ea deserunt assumenda iste nobis ducimus
+        asperiores, accusantium cum fuga exercitationem cumque? Ad eaque tempore
+        cupiditate, assumenda blanditiis molestias iure rem ipsa in officiis
+        qui, consectetur, illum molestiae omnis. Perferendis non possimus itaque
+        repellendus sapiente, amet animi praesentium totam culpa minus quia ex
+        beatae explicabo optio quidem cum odit autem distinctio assumenda magni
+        quas reprehenderit, tempora delectus! Natus error vitae repudiandae
+        tempora ipsum reprehenderit sunt nostrum laboriosam consequuntur
+        ducimus. Quae vel id et hic pariatur labore ipsam exercitationem impedit
+        nemo deleniti ad in praesentium tempore, autem distinctio animi
+        laudantium. Distinctio incidunt expedita, magni consequatur nesciunt
+        nihil architecto neque ipsam corporis ex alias a tempore voluptatum iste
+        voluptas necessitatibus odit impedit sed? Voluptatibus nihil maxime
+        officiis dolorem cupiditate nulla, adipisci natus. Architecto
+        repellendus adipisci dolore similique magni fugit quasi atque nihil
+        accusantium, vero optio excepturi quibusdam at beatae aut maiores
+        accusamus labore, ad delectus quos sit unde harum ipsum! Mollitia
+        asperiores ducimus saepe? Eaque, nemo consequuntur! Quo dolores quas
+        blanditiis quaerat amet recusandae harum! Ducimus facere distinctio
+        tempora neque animi ea perspiciatis omnis non quasi iste rem, impedit
+        ipsam debitis sequi fuga perferendis amet minus eum provident. Fugiat
+        impedit quia eius officiis deserunt aperiam, nihil quaerat accusantium
+        sit facere, magnam nam libero dolores atque, repellendus quae omnis
+        dolore laudantium? Hic et incidunt placeat ex adipisci necessitatibus,
+        tempora modi asperiores sunt, totam nam dolores, aliquid omnis autem
+        quia culpa voluptatum ea labore. Inventore, qui cupiditate unde illum
+        deleniti deserunt nam excepturi, quae ipsa reiciendis placeat, sunt a
+        itaque alias. Alias fugit, iusto et accusantium quibusdam nesciunt sit
+        provident quis quam consequuntur recusandae dicta enim ab ut facere
+        omnis vel doloremque aliquid praesentium sed laborum! Aperiam architecto
+        optio explicabo inventore odit cupiditate reprehenderit qui fugit id
+        sunt! Ea labore perspiciatis consectetur vel quasi aliquam beatae? Velit
+        veniam fugiat delectus in laudantium consectetur sint quos officiis
+        fuga?
+      </div>
+    </div>
+  </div>
+</div>
+<div id="popup-img" class="popup popup_subscribe-message">
+  <div class="popup__body">
+    <div class="popup__content lock-padding">
+      <div class="popup__text">
+        <picture><source srcset="images/avatar.webp" type="image/webp"><img src="images/avatar.jpg" alt="" /></picture>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- <div class="popup popup_video">
+  <div class="popup__content">
+    <div class="popup__body">
+      <div class="popup__close"></div>
+      <div class="popup__video _video"></div>
+    </div>
+  </div>
+</div> -->
+ <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+<!-- Swiper -->
+<script src="js/libs.min.js"></script>
+<script src="js/script.min.js"></script>
+
+  </body>
+</html>
